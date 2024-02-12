@@ -1,0 +1,8 @@
+.cms-emty-error {
+  font-size: 2rem;
+  background-color: var(--error);
+  margin-top: 20px;
+  padding: 20px;
+  color: var(--white);
+  text-align: center;
+}

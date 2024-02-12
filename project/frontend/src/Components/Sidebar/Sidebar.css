@@ -1,0 +1,36 @@
+.slider {
+  position: fixed;
+  background-color: var(--blue);
+  height: 100vh;
+  flex: 1;
+}
+.slidebar-title {
+  font-size: 1.4rem;
+  color: var(--white);
+  padding: 15px;
+  text-align: right;
+  border-bottom: 2px solid #4b6584;
+}
+.slidebar-links {
+  margin-top: 20px;
+}
+.slidebar-links li {
+  position: relative;
+  padding: 10px;
+}
+
+.slidebar-links li a {
+  width: 100%;
+  color: var(--white);
+  text-decoration: none;
+  display: flex;
+  gap: 1rem;
+  justify-content: right;
+  font-size: 1rem;
+}
+.slidebar-links li.active {
+  background-color: #3b4f68;
+}
+.slidebar-links li :first-child {
+  margin-bottom: 10px;
+}

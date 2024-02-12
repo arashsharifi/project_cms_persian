@@ -1,0 +1,80 @@
+.header {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.admin-profile {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.admin-profile img {
+  width: 100px;
+  border-radius: 50%;
+}
+.admin-profile div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.admin-profile div h1 {
+  font-size: 1.2rem;
+}
+.admin-profile div h2 {
+  font-size: 1.2rem;
+  color: #858585;
+}
+.header-left-section {
+  display: flex;
+  column-gap: 20px;
+}
+.search-box {
+  background-color: var(--white);
+
+  border-radius: 15px;
+  width: 90%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 0 5px;
+  -webkit-box-shadow: 10px 10px 19px -12px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 19px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 19px -12px rgba(0, 0, 0, 0.75);
+}
+.search-box input {
+  outline: none;
+  border: 0;
+  background: unset;
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 10px 10px;
+}
+.search-box button {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  font-size: 1.1rem;
+  width: 135px;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: white;
+  padding: 3px 20px;
+}
+.header-left-icon {
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: var(--blue);
+  color: white;
+  width: 40px;
+  height: 40px;
+  -webkit-box-shadow: 0px 13px 12px -5px rgba(0, 0, 0, 0.68);
+  -moz-box-shadow: 0px 13px 12px -5px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 13px 12px -5px rgba(0, 0, 0, 0.68);
+}

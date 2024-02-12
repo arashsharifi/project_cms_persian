@@ -1,0 +1,72 @@
+.products-table {
+  margin-top: 30px;
+  width: 100%;
+  background-color: var(--white);
+  border-radius: 10px;
+}
+.products-table-heading-tr {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 70px 0 460px;
+
+  font-size: 1.3rem;
+}
+.products-table-heading-tr th {
+  padding: 15px;
+}
+.product-table-tr {
+  margin: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 30px;
+}
+.product-table-tr td {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+}
+
+.products-table-img {
+  width: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.products-table-btn {
+  cursor: pointer;
+  padding: 8px 20px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  color: var(--white);
+  background-color: var(--blue);
+  margin-right: 20px;
+  border: none;
+}
+
+//start editModal children************************
+.add-product-form-group {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  width: 90%;
+  background-color: #f4f4f4;
+  background-color: red;
+  padding: 0 20px;
+  border-radius: 10px;
+}
+.edit-product-input {
+  font-size: 1.2rem;
+  background-color: transparent;
+  width: 80%;
+  padding: 0.5rem;
+  outline: 0;
+  border: none;
+}
+.item-Products {
+  color: gray;
+  margin-top: 5px;
+  font-size: 1.4rem;
+}
+//finish editModal children***********************
